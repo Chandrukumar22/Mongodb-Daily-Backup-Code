@@ -1,0 +1,26 @@
+{
+  "name": "mongo-db-daily-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child-process": "^1.0.2",
+    "express": "^4.18.2",
+    "moment": "^2.30.1",
+    "mon": "^0.0.8",
+    "node": "^21.6.2",
+    "path": "^0.12.7",
+    "span": "^0.0.6"
+  },
+  "devDependencies": {
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.0"
+  }
+}
